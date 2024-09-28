@@ -213,7 +213,7 @@ class _AuthPageState extends State<AuthPage> {
                 setState(() {
                   isLogin = false;
                   currentStep = 0;
-                });
+                });//add user level
               },
               child: Text('Create an account', style: TextStyle(color: Theme.of(context).primaryColor)),
             ),
